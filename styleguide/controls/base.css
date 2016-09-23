@@ -1,0 +1,40 @@
+/**
+ * Button
+ *
+ * Buttons are convenient tools when you need more traditional actions. To that end, Foundation has many easy to use button styles that you can customize or override to fit your needs.
+ *
+ * Styleguide controls.button
+ */
+
+/**
+ * Basics
+ *
+ * A basic button can be created with minimal markup. Because buttons can be used for many purposes, it's important to use the right tag.
+ *
+ * Markup:
+ * <!-- Anchors (links) -->
+ * <a href="about.html" class="button">Learn More</a>
+ * <a href="#features" class="button">View All Features</a>
+ * <!-- Buttons (actions) -->
+ * <button type="button" class="success button">Save</button>
+ * <button type="button" class="alert button">Delete</button>
+ *
+ * Styleguide controls.button.basics
+ */
+
+/**
+ * Sizing
+ *
+ * Additional classes can be added to your button to change its size and shape.
+ *
+ * Markup:
+ * <a class="tiny button" href="#">So Tiny</a>
+ * <a class="small button" href="#">So Small</a>
+ * <a class="button" href="#">So Basic</a>
+ * <a class="large button" href="#">So Large</a>
+ * <a class="expanded button" href="#">Such Expand</a>
+ * <a class="small expanded button" href="#">Wow, Small Expand</a>
+ *
+ * Styleguide controls.button.sizing
+ */
+

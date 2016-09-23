@@ -1,0 +1,17 @@
+/**
+ * The Grid
+ *
+ * Create powerful multi-device layouts quickly and easily with the default 12-column, nestable Foundation grid. If you're familiar with grid systems, you'll feel right at home. If not, you'll learn quickly.
+ *
+ * Styleguide general.grid
+ */
+
+/**
+ * Basics
+ *
+ * Start by adding an element with a class of .row. This will create a horizontal block to contain vertical columns. Then add elements with a .column class within that row. You can use .column or .columns—the only difference is grammar. Specify the widths of each column with the .small-#, .medium-#, and .large-# classes.
+ *
+ * Markup: grid.basics.twig
+ *
+ * Styleguide general.grid.basics
+ */

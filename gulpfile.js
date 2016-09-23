@@ -40,11 +40,11 @@ gulp.task('kss', ['clean'], function(cb) {
  */
 gulp.task('kss-foundation-css', ['kss'], function() {
   var sources = [
-    'node_modules/foundation-sites/css/foundation.css'
+    'node_modules/foundation-sites/dist/foundation.css'
   ];
   return gulp.src(sources)
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('out/public/'));
+    .pipe(gulp.dest('out/'));
 });
 
 /**
@@ -52,12 +52,12 @@ gulp.task('kss-foundation-css', ['kss'], function() {
  */
 gulp.task('kss-foundation-js', ['kss'], function() {
   var sources = [
-    'node_modules/foundation-sites/js/vendor/jquery.js',
-    'node_modules/foundation-sites/foundation/foundation.js',
+    'node_modules/jquery/dist/jquery.js',
+    'node_modules/foundation-sites/dist/foundation.js',
   ];
   return gulp.src(sources)
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('out/public/'));
+    .pipe(gulp.dest('out/'));
 });
 
 /**
