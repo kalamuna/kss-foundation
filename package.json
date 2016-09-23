@@ -1,6 +1,6 @@
 {
   "name": "kss-foundation",
-  "version": "6.0.0",
+  "version": "6.0.0-alpha",
   "description": "A KSS template and style guide for Foundation.",
   "author": "Rob Loach (http://github.com/robloach)",
   "repository": {
