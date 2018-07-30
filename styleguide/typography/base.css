@@ -34,3 +34,35 @@
  * Styleguide typography.base.header
  */
 
+/**
+ * Small Header Segments
+ *
+ * By inserting a `<small>` element into a header Foundation will scale the header font size down for an inline element, allowing you to use this for subtitles or other secondary header text.
+ *
+ * Markup:
+ * <h3>Foundation for Sites <small>Version 6.5.0</small></h3>
+ *
+ * Styleguide typography.base.small-header
+ */
+
+/**
+ * Links
+ *
+ * Links are very standard, and the color is preset to the Foundation primary color. Learn more about Foundation's global colors.
+ *
+ * Markup:
+ * <p>Links are very standard, and the color is preset to the Foundation primary color. <a href="global.html">Learn more about Foundation's global colors.</a></p>
+ *
+ * Styleguide typography.base.links
+ */
+
+/**
+ * Dividers
+ *
+ * Use dividers to define thematic breaks between paragraphs. To denote the end of one section of a page and the start of another, it's better to use the <section> tag.
+ *
+ * Markup:
+ * <hr>
+ *
+ * Styleguide typography.base.dividers
+ */

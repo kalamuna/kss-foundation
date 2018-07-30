@@ -1,0 +1,23 @@
+/**
+ * Typography Helpers
+ *
+ * Our helper classes allow you to scaffold certain typographic styles faster.
+ *
+ * Styleguide typography.helpers
+ */
+
+/**
+ * Subheader
+ *
+ * Lighten up your headers by adding a class of `.subheader` to any header element.
+ *
+ * Markup:
+ * <h1 class="subheader">h1.subheader</h1>
+ * <h2 class="subheader">h2.subheader</h2>
+ * <h3 class="subheader">h3.subheader</h3>
+ * <h4 class="subheader">h4.subheader</h4>
+ * <h5 class="subheader">h5.subheader</h5>
+ * <h6 class="subheader">h6.subheader</h6>
+ *
+ * Styleguide typography.helpers.subheader
+ */

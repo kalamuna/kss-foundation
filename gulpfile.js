@@ -61,17 +61,6 @@ gulp.task('kss-foundation-js', ['kss'], function() {
 });
 
 /**
- * HTML Hint
- */
-gulp.task('htmlhint', ['kss-foundation'], function () {
-  var htmlhint = require('gulp-htmlhint');
-  return gulp.src(['./out/*.html'])
-    .pipe(htmlhint())
-    .pipe(htmlhint.reporter())
-    .pipe(htmlhint.failReporter())
-});
-
-/**
  * Deploy
  */
 gulp.task('deploy', ['kss-foundation'], function () {
@@ -104,5 +93,5 @@ gulp.task('kss-foundation', ['kss-foundation-css', 'kss-foundation-js']);
  * Default tasks
  */
 gulp.task('start', ['clean', 'kss-foundation', 'serve', 'watch']);
-gulp.task('test', ['kss-foundation', 'htmlhint']);
+gulp.task('test', ['kss-foundation']);
 gulp.task('default', ['test']);
