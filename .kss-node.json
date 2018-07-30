@@ -2,9 +2,9 @@
   "source": "styleguide",
   "destination": "out",
   "css": [
-    "https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css"
+    "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0-rc.2/css/foundation.css"
   ],
   "js": [
-    "https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"
+    "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0-rc.2/js/foundation.js"
   ]
 }
